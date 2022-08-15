@@ -1,8 +1,13 @@
-spring.h2.console.enabled=true
-spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=none
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=hitesh
-spring.datasource.password=hitesh
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring:
+ profiles:
+  active: dev 
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: hitesh
+    password: hitesh
+    driverClassName: org.h2.Driver
+  jpa:
+   show-sql: rue
+   hibernate:
+    ddl-auto: none
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
