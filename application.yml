@@ -7,7 +7,7 @@ spring:
     password: hitesh
     driverClassName: org.h2.Driver
   jpa:
-   show-sql: rue
+   show-sql: true
    hibernate:
     ddl-auto: none
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect 
