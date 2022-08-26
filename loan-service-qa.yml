@@ -11,4 +11,4 @@ spring:
      database-platform: org.hibernate.dialect.H2Dialect
     
 welcome:
- message: Hello Hitesh from dev property config server
+ message: Hello Hitesh from QA property config server
