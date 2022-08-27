@@ -9,6 +9,9 @@ spring:
      hibernate:
       ddl-auto: none
      database-platform: org.hibernate.dialect.H2Dialect
+   h2:
+    console:
+      enabled: true
     
 welcome:
  message: Hello Hitesh from QA property config server
